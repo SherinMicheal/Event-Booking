@@ -1,0 +1,17 @@
+.event-details {
+    padding: 20px;
+    background-color: #fff; /* Background color for details */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .event-title {
+    color: #3498db; /* Color for the title */
+    font-size: 24px; /* Larger font size for title */
+    font-weight: bold; /* Make title bold */
+  }
+  
+  .event-description {
+    color: #555; /* Color for the description */
+    font-size: 16px; /* Font size for description */
+  }

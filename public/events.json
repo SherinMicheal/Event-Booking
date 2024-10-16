@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "title": "Concert 2024",
+      "description": "A great Comedy Show!",
+      "category": "Comedy",
+      "date": "2024-10-10",
+      "availableSeats": 50,
+      "price": 1500
+    },
+    {
+      "id": 2,
+      "title": "Circus",
+      "description": "Circus Fantasy",
+      "category": "Circus",
+      "date": "2024-11-22",
+      "availableSeats": 0,
+      "price": 500
+    },
+    {
+        "id": 3,
+        "title": "F4 Car Race",
+        "description": "Car race",
+        "category": "Race",
+        "date": "2024-09-22",
+        "availableSeats": 25,
+        "price": 1700
+      }
+    
+    
+  ]
+  

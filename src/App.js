@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useContext } from 'react';
+import AuthContext from './components/AuthContext';
+import EventList from './components/EventList';
+import Login from './components/Login';
+import EventDetail from './components/EventDetail';
 
-function App() {
+const App = () => {
+  const { isAuthenticated } = useContext(AuthContext);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {isAuthenticated ? (
+        // Show EventList if user is authenticated
+        <EventList />
+      ) : (
+        // Otherwise, show Login page
+        <Login />
+      )}
     </div>
   );
-}
+};
 
 export default App;
